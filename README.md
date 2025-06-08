@@ -60,7 +60,7 @@ A partir de variables clave como tipo de contrato, servicios contratados, tipo d
 
 Puedes abrir y ejecutar el análisis fácilmente desde Google Colab:
 
-👉 [Abrir en Google Colab]([https://colab.research.google.com/](https://github.com/Elavat9000/TelecomX_LATAM_challenge2-data-science-LATAM/blob/main/TelecomX_LATAM.ipynb))
+👉 [Abrir en Google Colab]([https://colab.research.google.com/](https://github.com/Elavat9000/TelecomX_LATAM_challenge2-data-science-LATAM/blob/main/TelecomX_LATAM.ipynb)
 
 **Pasos:**
 1. Haz clic en el enlace de arriba.
