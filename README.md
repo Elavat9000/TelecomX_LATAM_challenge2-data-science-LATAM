@@ -37,6 +37,8 @@ A partir de variables clave como tipo de contrato, servicios contratados, tipo d
 ## 📂 Estructura del Proyecto
 ```plaintext
 /
+├──/data/
+    └── TelecomX_Data.json
 ├── TelecomX_LATAM.ipynb          # 📓 Notebook de Jupyter donde se realizo el análisis, gráficas y conclusiones.
 ├── README.md                     # 📖 Explicación del proyecto, contexto, objetivos, metodología, resultados clave.
 └── Imagenes/                     # 📂 Carpeta con todas las gráficas y visualizaciones exportadas desde el notebook.
