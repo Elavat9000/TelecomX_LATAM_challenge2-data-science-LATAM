@@ -48,11 +48,11 @@ A partir de variables clave como tipo de contrato, servicios contratados, tipo d
 
 ## 📈 Insights Obtenidos
 
-🔍 Contratos mes a mes concentran el mayor número de cancelaciones.  
-🔍 Fibra Óptica con contrato mes a mes es la combinación más propensa a cancelar.  
-🔍 Más del 60% de las cancelaciones ocurren en los primeros 2 meses.  
-🔍 Clientes que pagan con Electronic Check cancelan más.  
-🔍 A mayor número de servicios contratados, menor probabilidad de cancelar.
+🔍 1. Percepción de Precio Alto vs. Competencia  
+🔍 2. Contrato "Mes a Mes" = Mayor Predictor de Churn
+🔍 3. "Electronic Check": Método de Pago Más Riesgoso  
+🔍 4. Primeros 60 Días: Ventana Crítica  
+🔍 5. Servicios Complementarios: Arma de Doble Filo
 
 ---
 
@@ -60,7 +60,7 @@ A partir de variables clave como tipo de contrato, servicios contratados, tipo d
 
 Puedes abrir y ejecutar el análisis fácilmente desde Google Colab:
 
-👉 [Abrir en Google Colab](https://colab.research.google.com/)
+👉 [Abrir en Google Colab]([https://colab.research.google.com/](https://github.com/Elavat9000/TelecomX_LATAM_challenge2-data-science-LATAM/blob/main/TelecomX_LATAM.ipynb))
 
 **Pasos:**
 1. Haz clic en el enlace de arriba.
