@@ -1,14 +1,17 @@
 # TelecomX_LATAM_challenge2-data-science-LATAM
-challenge2-data-science-LATAM
 
+Telecom X - Análisis de Evasión de Clientes
 
-# 📊 Análisis de Cancelaciones de Clientes - Telecom
+"Has sido contratado como asistente de análisis de datos en Telecom X y formarás parte del proyecto "Churn de Clientes". La empresa enfrenta una alta tasa de cancelaciones y necesita comprender los factores que llevan a la pérdida de clientes.
+Tu desafío será recopilar, procesar y analizar los datos, utilizando Python y sus principales bibliotecas para extraer información valiosa. A partir de tu análisis, el equipo de Data Science podrá avanzar en modelos predictivos y desarrollar estrategias para reducir la evasión."
 
-Este es un proyecto personal de análisis de datos realizado para identificar las principales causas de cancelación de clientes en una empresa de telecomunicaciones. Se trabajó con un conjunto de datos público que simula la información de clientes, servicios contratados, métodos de pago y comportamiento de permanencia.
+# 📊 Análisis de Cancelaciones de Clientes - TelecomX
+
+Este es un proyecto propuesto por Alura, sobre el análisis una muestra de datos, esto con el fin de  identificar las principales causas de cancelación de clientes en una empresa de telecomunicaciones. Se trabajó con un conjunto de datos público que simula la información de clientes, servicios contratados, métodos de pago y comportamiento de permanencia. Este se obtuvo por medio de un JSON. 
 
 ## 📌 Objetivo
 
-A partir de variables clave como tipo de contrato, servicios contratados, tipo de internet, método de pago y tiempo de permanencia, se buscó detectar los factores más influyentes en la decisión de cancelar el servicio y proponer recomendaciones para reducir la tasa de cancelación.
+A partir de columnas clave como tipo de contrato, servicios contratados, tipo de internet, método de pago y tiempo de permanencia, se buscó detectar los factores más influyentes en la decisión de cancelar el servicio y proponer recomendaciones para reducir la tasa de cancelación.
 
 ---
 
@@ -25,12 +28,11 @@ A partir de variables clave como tipo de contrato, servicios contratados, tipo d
 
 ### 📈 Gráficos
 
-- Distribución de cancelaciones
-- Cancelaciones por tipo de internet
-- Cancelaciones por contrato
-- Cancelaciones por método de pago
-- Histograma de tiempo de permanencia
-- Relación entre servicios contratados y cancelación
+| ![Contract](Imagenes/Contract%20(1).png "📈 Contratos") | ![Internet](Imagenes/InternetService.png "📶 Internet") | ![Días](Imagenes/cancelacion_porDias_gastos.png "💸 Por Días") |
+|:------------------------------------------------------:|:------------------------------------------------------:|:--------------------------------------------------------------|
+| ![Cargos](Imagenes/cancelacion_por_cargos.png "💰 Cargos") | ![Meses](Imagenes/cancelacion_por_meses.png "📅 Meses") | ![Pago](Imagenes/cancelaciones_por_metodo.png "🧾 Pago") |
+| ![Distribución](Imagenes/distribucion_cancelacion.png "📊 Distribución") | ![Género](Imagenes/gender.png "👩‍🦰 Género") | ![Relación](Imagenes/relacion_internet_contract_churn%20(1).png "🌐 Relación") |
+| ![Servicios](Imagenes/servicios_contratados_cancelados.png "📊 Servicios") |  |  |
 
 ---
 
@@ -60,9 +62,13 @@ A partir de variables clave como tipo de contrato, servicios contratados, tipo d
 ## 📈 Insights Obtenidos
 
 🔍 1. Percepción de Precio Alto vs. Competencia  
+
 🔍 2. Contrato "Mes a Mes" = Mayor Predictor de Churn
+
 🔍 3. "Electronic Check": Método de Pago Más Riesgoso  
+
 🔍 4. Primeros 60 Días: Ventana Crítica  
+
 🔍 5. Servicios Complementarios: Arma de Doble Filo
 
 ---
@@ -75,6 +81,7 @@ Con base en los datos analizados se concluye que:
 - Los contratos mes a mes, especialmente con Fibra Óptica, requieren estrategias de fidelización más sólidas.
 - Se deben crear campañas de retención para clientes en sus primeros 2 meses.
 - Es recomendable incentivar métodos de pago automáticos y paquetes de servicios múltiples.
+- Dentro del trabajo se dieron recomendaciones a seguir con el objetivo que el equipo de Data pueda seguir con el analisis.  
 
 ---
 
@@ -104,5 +111,5 @@ Puedes abrir y ejecutar el análisis fácilmente desde Google Colab:
 
 ---
 
-**📌 Autor:** Francisco Cervantes  
-**📅 Fecha:** Junio 2025  
+**📌 Autor:** Francisco  Javier Cervantes Mendieta  
+**📅 Fecha:** 08 Junio 2025  
