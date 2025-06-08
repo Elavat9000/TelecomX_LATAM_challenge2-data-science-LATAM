@@ -35,15 +35,24 @@ A partir de variables clave como tipo de contrato, servicios contratados, tipo d
 ---
 
 ## 📂 Estructura del Proyecto
-
+```plaintext
 /
-└── Analisis-Cancelaciones-Telecom
-├── analisis_cancelaciones.ipynb # Notebook con todo el análisis realizado
-├── reporte_final.md # Informe con los resultados y conclusiones
-├── README.md # Este archivo de documentación
-└── data/
-└── telecom_customers.csv # Dataset base utilizado en el proyecto
+├── TelecomX_LATAM.ipynb          # 📓 Notebook de Jupyter donde se realizo el análisis, gráficas y conclusiones.
+├── README.md                     # 📖 Explicación del proyecto, contexto, objetivos, metodología, resultados clave.
+└── Imagenes/                     # 📂 Carpeta con todas las gráficas y visualizaciones exportadas desde el notebook.
+    ├── Contract (1).png
+    ├── InternetService.png
+    ├── cancelacion_porDias_gastos.png
+    ├── cancelacion_por_cargos.png
+    ├── cancelacion_por_meses (1).png
+    ├── cancelacion_por_meses.png
+    ├── cancelaciones_por_metodo.png
+    ├── distribucion_cancelacion.png
+    ├── gender.png
+    ├── relacion_internet_contract_churn (1).png
+    └── servicios_contratados_cancelados.png
 
+```
 ---
 
 ## 📈 Insights Obtenidos
@@ -56,19 +65,6 @@ A partir de variables clave como tipo de contrato, servicios contratados, tipo d
 
 ---
 
-## 🚀 Cómo Ejecutar el Notebook en Google Colab
-
-Puedes abrir y ejecutar el análisis fácilmente desde Google Colab:
-
-👉 [Abrir en Google Colab]([https://colab.research.google.com/](https://github.com/Elavat9000/TelecomX_LATAM_challenge2-data-science-LATAM/blob/main/TelecomX_LATAM.ipynb)
-
-**Pasos:**
-1. Haz clic en el enlace de arriba.
-2. Inicia sesión con tu cuenta de Google (si no lo has hecho).
-3. Ejecuta las celdas del notebook (una por una o con “Ejecutar todo”).
-4. El dataset se carga desde una URL pública en GitHub, por lo que no necesitas subir nada.
-
----
 
 ## 🧾 Conclusión del Estudio
 
@@ -80,6 +76,20 @@ Con base en los datos analizados se concluye que:
 
 ---
 
+## 🚀 Cómo Ejecutar el Notebook en Google Colab
+
+Puedes abrir y ejecutar el análisis fácilmente desde Google Colab:
+
+👉 [Abrir TelecomX_LATAM.ipynb](https://github.com/Elavat9000/TelecomX_LATAM_challenge2-data-science-LATAM/blob/main/TelecomX_LATAM.ipynb)
+
+**Pasos:**
+1. Haz clic en el enlace de arriba.
+2. Haz clic en "Open in colab"
+3. Inicia sesión con tu cuenta de Google (si no lo has hecho).
+4. Ejecuta las celdas del notebook (una por una o con “Ejecutar todo Ctrl+F9”).
+5. El dataset se carga desde una URL pública en GitHub, por lo que no necesitas subir nada.
+
+---
 ## 🛠️ Tecnologías Usadas
 
 - Python
